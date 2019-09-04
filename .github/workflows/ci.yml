@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    run-on: macos-latest
     steps:
     - uses: actions/checkout@v1
     - name: Lint
